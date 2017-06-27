@@ -64,4 +64,13 @@
 ;;   :resource-base (s-url "http://webcat.tmp.tenforce.com/themes/")
 ;;   :on-path "themes")
 
-;;
+(define-resource fietsroute ()
+  :class (s-prefix "ost:NetworkBasedRoute")
+  :properties `((:length :string ,(s-prefix "ost:length"))
+                (:name :string ,(s-prefix "gr:name"))
+                (:description :string ,(s-prefix "gr:description")))
+  ;; :has-many `((dataset :via ,(s-prefix "dcat:theme")
+  ;;                      :inverse t
+  ;;                      :as "datasets"))
+  :resource-base (s-url "http://localhost/fietsroute/")
+  :on-path "fietsroute")

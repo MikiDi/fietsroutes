@@ -32,3 +32,13 @@
 ;; by them and that it shouldn't be used for permanent URIs.
 
 (add-prefix "ext" "http://mu.semte.ch/vocabularies/ext/")
+(add-prefix "rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+(add-prefix "rdfs" "http://www.w3.org/2000/01/rdf-schema#")
+(add-prefix "ost" "http://w3id.org/ost/ns#") ;; Open Standard for Tourism Ecosystems Data
+(add-prefix "dcterms" "http://purl.org/dc/terms/")
+(add-prefix "vcard" "http://www.w3.org/2006/vcard/ns#")
+(add-prefix "schema" "http://schema.org/")
+(add-prefix "gr" "http://purl.org/goodrelations/v1#") ;; GoodRelations
+(add-prefix "skos" "http://www.w3.org/2004/02/skos/core#") ;; SKOS Simple Knowledge Organization System
+(add-prefix "adms" "http://www.w3.org/ns/adms#") ;; Asset Description Metadata Schema
+(add-prefix "xsd" "http://www.w3.org/2001/XMLSchema#")

@@ -27,3 +27,7 @@ services:
       - db:database
     volumes:
       - ./config/resources:/config
+  map2osm:
+    image: map2osm
+    links:
+      - db:database
